@@ -63,7 +63,7 @@ int main() {
 
     printf("Starting Inversion FreeRTOS Demo...\n");
 
-    sharedMutex = xSemaphoreCreateMutex();
+    sharedMutex = xSemaphoreCreateBinary();
 
     xTaskCreate(lowTask,    "Low",    256, NULL, 1, NULL);
     xTaskCreate(mediumTask, "Medium", 256, NULL, 2, NULL);
