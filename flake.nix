@@ -80,6 +80,8 @@
             tinymist # Typst lsp.
             websocat # Typst lsp dep.
             nixd # Nix lsp.
+
+            git-crypt
           ]
           ++ formatterInputs system;
 
