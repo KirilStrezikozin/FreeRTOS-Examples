@@ -1,2 +1,3 @@
 main.c filter=git-crypt diff=git-crypt
 logbook/**.typ filter=git-crypt diff=git-crypt
+steps/**.c filter=git-crypt diff=git-crypt

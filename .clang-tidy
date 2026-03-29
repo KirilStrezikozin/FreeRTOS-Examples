@@ -12,6 +12,7 @@ Checks: >
   concurrency-*,
   cppcoreguidelines-*,
   -cppcoreguidelines-avoid-magic-numbers,
+  -cppcoreguidelines-macro-to-enum,
   -cppcoreguidelines-pro-type-vararg,
   -cppcoreguidelines-macro-usage,
   -cppcoreguidelines-avoid-c-arrays,
@@ -40,7 +41,9 @@ Checks: >
   -misc-non-private-member-variables-in-classes,
   -misc-no-recursion,
   cert-*,
+
 # CheckOptions:
-  # readability-identifier-naming.ClassCase: CamelCase
-  # readability-identifier-length.MinimumVariableNameLength: 2
-  # readability-identifier-length.MinimumParameterNameLength: 2
+# readability-identifier-naming.ClassCase: CamelCase
+# readability-identifier-length.MinimumVariableNameLength: 2
+# readability-identifier-length.MinimumParameterNameLength: 2
+
