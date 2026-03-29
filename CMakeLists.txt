@@ -74,6 +74,7 @@ target_link_libraries(
   PRIVATE pico_stdlib
           pico_rand
           hardware_gpio
+          hardware_i2c
           pico_multicore
           freertos_config
           FreeRTOS-Kernel
