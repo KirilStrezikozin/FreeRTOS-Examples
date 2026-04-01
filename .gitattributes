@@ -1,3 +1,6 @@
 main.c filter=git-crypt diff=git-crypt
 logbook/**.typ filter=git-crypt diff=git-crypt
 steps/**.c filter=git-crypt diff=git-crypt
+sema_assignment/**.c filter=git-crypt diff=git-crypt
+sema_assignment/**.h filter=git-crypt diff=git-crypt
+sema_assignment/**.typ filter=git-crypt diff=git-crypt

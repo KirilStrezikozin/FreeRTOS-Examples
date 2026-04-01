@@ -81,6 +81,7 @@
             websocat # Typst lsp dep.
             nixd # Nix lsp.
 
+            vhs
             git-crypt
           ]
           ++ formatterInputs system;
